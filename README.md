@@ -1,5 +1,6 @@
 # UninstallMonitor
 Monitor self app to action url when uninstall by user for Android.
+用于Android平台，对自身app进行卸载检测，检测到就自动跳转url。
 
 # What's in it
 c层fork一个子进程，并且使子进程的父进程指向init（pid=1）进程。
